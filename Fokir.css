@@ -1,0 +1,516 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.clearfix
+{
+clear: both;
+
+}
+
+
+.home
+{
+    background-image:url(img/slider/slider-01.jpg);
+    background-size: cover;
+    background-position: center center;
+    height:100vh  ;
+    text-align: center;
+    padding-top: 200px;
+    border: none;
+ margin-bottom: 70px;
+
+}
+.home  h3
+ {
+    font-weight: 300;
+    font-size: large;
+    color: white;
+    font-family: 'Monomaniac One', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+ }
+
+
+ .home p
+{
+    font-weight: 300;
+    font-size: large;
+    font-weight: 100;
+  font-size: 25px;
+    color: grey;
+    text-align: center;
+    font-family: 'Monomaniac One', sans-serif;
+    
+ }
+
+.home h1
+{
+   
+  color: rgba(255, 94, 0, 0.984);
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+  
+}
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  
+  }
+  li {
+    float: right;
+    margin-right: 30px;
+    margin-top: 20px;
+   
+  }
+
+  
+  a{
+    display: block;
+    padding: 1px;
+    background-color: #dddddd;
+    background-color: transparent;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: medium;
+
+  }
+  A:hover
+  {
+ 
+    transition: 0.7s;   
+    color:  red;
+  }
+.navbar-text
+{
+
+float: left;
+margin-top: 10px;
+padding-left: 15px;
+color: rgba(255, 94, 0, 0.984);
+font-family: 'Nunito', sans-serif;
+font-weight: 900;
+height: 50px;
+
+}
+.homepage
+{
+  background-color:rgba(0, 0, 0, 0.66);
+  position: absolute;
+  top: 0;
+  height: fit-content;
+  border: none;
+width: 100%;
+z-index: 10;
+position: fixed;
+
+
+}
+.navbaricon
+{
+display: none;
+
+}
+
+
+.homepagetext  
+{
+
+position: relative;
+top: 120px;
+left: 0px;
+
+
+
+}
+
+.backgroundcolor
+{
+
+  width: 100%;
+background-color: rgb(0, 0,0,0.6);
+position: absolute;
+top: 0px;
+height: 103%;
+}
+.secondpageimg
+{
+  position: relative;
+  top: 20px;
+  left: 15px;
+  bottom: 0%;
+
+  border-radius: 2%;
+}
+
+
+.secondpage
+{
+
+  border: grey solid 7px;
+  border-radius: 1%;
+width: fit-content;
+    left: 40px;
+position:absolute;
+
+
+}
+.hover
+{
+ 
+  position: absolute;
+  top: 100%;
+  left: 15px;
+  width: 100%;
+  height: 100%;
+  border-radius: 2%;
+
+
+}
+.secondpage:hover .hover
+{
+  background-color: rgb(0, 0,0,0.6);
+  top: 20px;
+ transition: top 1s;
+}
+
+.secondpageinfo
+{
+
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    padding-left: 10px;
+    position: relative;
+    left: 450px;
+    width: 50%;
+    display: inline-block;
+
+
+
+}
+.secondpageinfop
+{
+
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    padding-left: 10px;
+    position: relative;
+    left: 450px;
+    width: 50%;
+    color: grey;
+  
+
+
+
+}
+.secondpageinfo::before
+{
+
+    content: "  ";
+    background-color: rgba(255, 94, 0, 0.984);
+    position: absolute;
+    top: 12%;
+    left: 0px;                                                          
+    height: 30px;
+    width: 4px;
+    z-index: 1;
+
+}
+.secondpageinfoh2
+{
+ padding-top: 50px;
+  font-weight: 100;
+
+  margin-right: 20px;
+  position: relative;
+  left: 450px;
+background-color: antiquewhite;
+float: right;
+
+}
+.line{
+  border-top: 1px dashed grey;
+  position: relative ;
+  left: 460px;
+  margin-top: 30px;
+  margin-right: 630px;
+
+}
+
+.secondpageh3
+{
+    float: left;
+    
+
+
+  }
+
+.secondpageinfoh21
+{
+  padding-top: 50px;
+  font-weight: 100;
+
+  margin-right: 0px;
+  position: relative;
+  left: 450px;
+background-color: antiquewhite;
+float: right;
+
+}
+.ul
+
+{
+
+
+position: absolute;
+left: 460px;
+margin-bottom: 20px;
+
+}
+.ul h4
+{
+  font-family: 'Nunito', sans-serif;
+  margin-top: 20px;
+ 
+
+}
+span
+{
+
+  color: grey;
+
+}
+.h41
+{
+
+ font-family: 'Nunito', sans-serif;
+ padding-top: 30px;
+
+}
+.h42
+{
+  
+ font-family: 'Nunito', sans-serif;
+ padding-top: 20px;
+ margin-left: 800px;
+}
+.ul2 .h42
+{
+  font-family: 'Nunito', sans-serif;
+  margin-top: 30px;
+  margin-left: 770px;
+ 
+
+}
+.ul2 .h41
+{font-family: 'Nunito', sans-serif;
+  margin-top: 10px;
+ position: relative;
+ left: 770px;
+ 
+
+}
+.button1
+{font-family: 'Nunito', sans-serif;
+  margin-top: 10px;
+ position: relative;
+ left: 500px;
+ width: 140px;
+ height: 40px;
+ font-weight: 900;
+ background-color: rgba(255, 94, 0, 0.984);
+ border: 0;
+ border-radius: 5%;
+ color: white;
+;}
+
+.button2
+{font-family: 'Nunito', sans-serif;
+  margin-top: 10px;
+ position: relative;
+ left: 510px;
+ width: 100px;
+ height:40px;
+ font-weight: 900;
+ background-color: rgba(255, 94, 0, 0.984);
+ border: 0;
+ border-radius: 5%;
+ color: white;
+
+}
+
+.button1 img
+{
+  width: 11%;
+  padding-left: 5px;
+}
+.button2 img
+{
+  width: 13%;
+  padding-left: 5px;
+}
+.thirdpage h1
+{
+  font-family: 'Nunito', sans-serif;
+  
+
+}
+.thirdpage
+{
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.13);
+  height: fit-content;
+  margin-top: 20px;
+ 
+  
+}
+.member
+{
+    
+    width: 21%;
+    display: inline-block;
+   
+    margin: 23px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.thirdpage h1
+{
+ 
+    color: black;
+    padding: 20px;
+  
+}
+.member p
+{
+  width: 100%;
+  position: relative;
+  font-family: 'Nunito', sans-serif;
+}
+.thirdpage h3
+{
+  font-family: 'Nunito', sans-serif;
+}
+.fourthpage a
+{
+
+  padding: 5px;
+  padding-left: 15px;
+  color: grey;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 900;
+}
+.fourthpage a:hover
+{
+
+  color:rgba(255, 94, 0, 0.984);
+}
+.li2
+{
+  list-style-type: none;
+  float: left;
+position: relative;
+left: 35%;
+padding: 10px;
+padding-top: 30px;
+  text-align: center;
+  padding-bottom: 30px;
+
+}
+.fourthpage h1
+{
+  font-family: 'Nunito', sans-serif;
+  padding-top: 20px;
+}
+.fourthpage
+{
+  text-align:center ;
+
+ 
+ 
+}
+.fourthpage img
+{
+    width: 33.3333%;   
+    float: left; 
+    position: relative;
+    top: 10px;   
+    padding: 10px;
+              
+
+}
+.fifthpage
+{
+  text-align: center;
+ position: relative;
+ top: 60px;
+  height: 300px;
+  background-color: rgba(128, 128, 128, 0.181);
+}
+.fifthpage h3
+  {
+    font-family: 'Nunito', sans-serif;
+  }
+  .fifthpage p
+  {
+
+    font-family: 'Nunito', sans-serif;
+   
+  }
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    
+  }
+  
+  input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    
+  }
+  
+  input[type=submit] {
+    background-color:rgba(255, 94, 0, 0.984);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+ 
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .container h1
+  {
+   text-align: center;
+   font-family: 'Nunito', sans-serif;
+  }
+
+
+
+
+
+
+

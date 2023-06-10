@@ -1,0 +1,181 @@
+@media only screen and (max-width: 600px) 
+{
+ .navbaricon
+ {
+
+display: inline;
+
+ }
+
+
+
+.li
+{
+
+      display: none;
+
+
+}
+.homepagetext  
+{
+
+position: absolute;
+top: 290px;
+left: 100px;
+
+
+}
+
+
+
+.navbar
+{
+
+  display: none;
+}
+
+.homepage
+{
+  position: relative;
+}
+.backgroundcolor
+{
+  height: 103%;
+}
+.secondpageinfop
+{
+  width: 80%;
+  display: block;
+}
+
+.secondpageinfo
+{
+  display: block;
+}
+
+.li2
+
+{
+
+
+  left: 4%;
+}
+.fourthpage img
+{
+    width: 80%;   
+  left: 30px;
+    position: relative;
+    top: 30px;   
+    padding: 30px;
+              
+
+}
+
+.secondpageinfo
+{
+position:relative;
+top: 500px;
+    left: 50px;
+    width: 50%;
+    display: inline-block;
+
+}
+.secondpageinfop
+{
+
+  position:relative;
+  top: 500px;
+      left: 50px;
+      width: 80%;
+      display: inline-block;
+margin-bottom: 470px;
+margin-top: 10px;
+}
+.ul2 .h42
+{
+  font-family: 'Nunito', sans-serif;
+  margin-top: 30px;
+  margin-left: 55px;
+ 
+
+}
+.ul2 .h41
+{font-family: 'Nunito', sans-serif;
+  margin-top: 10px;
+ position: relative;
+ left: 55px;
+ 
+
+}
+.ul
+
+{
+
+
+position: absolute;
+left: 300px;
+margin-bottom: 20px;
+
+}
+.ul h4
+{
+  font-family: 'Nunito', sans-serif;
+  margin-top: 18px;
+ 
+
+}
+.button1
+{
+
+ left: 55px;
+
+;}
+.button2
+{
+
+ left: 120px;
+
+
+;}
+.fifthpage{
+  margin-top: 0;
+  height: fit-content;
+
+  
+}
+.line{
+ 
+  position: relative ;
+  left: 55px;
+  margin-top: 50px;
+  margin-right: 55px;
+
+}
+
+.member
+{
+  width: 100%;
+padding-left: 0;
+margin-left: 2px;
+}
+.fourthpage .li2
+{
+position: relative;
+left: 80px;
+
+}
+.fourthpage img
+{
+
+position: relative;
+left: 40px;
+}
+.member
+{
+  padding: 5;
+}
+.homepage
+{
+  position: fixed;
+}
+}
